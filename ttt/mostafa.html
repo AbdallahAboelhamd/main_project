@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title> Login Form</title>
+ <link rel="stylesheet" href="mostafa.css">
+ <link rel="icon" href="Logo.png" type="image/jpg"><!--لوجو-->
+
+</head>
+<body>
+    <div id="particles-js"></div>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <a href=".html" ><img src="Logo.png" class="logo" width="90px"><img src="Logo.png" class="logo" width="90px"></a><!--لوجو-->
+ <div class="container">
+  <h1 class="label">Login</h1>
+  <form class="login_form" action=".html" method="post" name="form" onsubmit="return validated()">
+   <div class="font">Email or Phone</div>
+   <input autocomplete="off" type="email" name="email" required>
+   <div id="email_error">Please fill up your Email</div>
+   <div class="font font2">Password</div>
+   <input type="password" name="password" required>
+   <div id="pass_error">Please fill up your Password</div>
+   <button type="submit">Login</button>
+   <center>
+   <div class="register-link">
+    <p>Don't have an Account?             
+        <a href="mark.html"> Register Now!  </a></p>
+   </div>
+   </center>
+  </form>
+ </div> 
+ <script src="valid.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+  <title>Create Account</title>
+  <link rel="stylesheet" href="mark.css">
+  <script src="mark.js"></script>
+  <link rel="icon" href="Logo.png" type="image/jpg"><!--لوجو-->
+
+</head>
+
+<body>
+  <a href=".html" ><img src="Logo.png" class="logo" width="90px"><img src="Logo.png" class="logo" width="90px"></a><!--لوجو-->
+  <video autoplay muted loop id="myVideo">
+    <source src="mark.mp4" type="video/mp4">
+  </video>
+  <center>
+  <div class="mainform">
+    <form action="/home" id="form">
+      <h2>Create Account</h2>  
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>    
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" required>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      <hr >
+      <a href=".html">
+    <button type="submit" onclick="validateForm()"><p>Create Account</p></button>
+      </a>
+      <div class="login-link">
+        <p>You have an Account?             
+            <a href="mostafa.html"> Login Now </a></p>
+       </div>
+  </center>
+    </form>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+  </div>
+</body>
+</html>
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<head>
+  <title>Create Account</title>
+  <link rel="stylesheet" href="mark.css">
+  <script src="mark.js"></script>
+
+</head>
+<body>
+  <video autoplay muted loop id="myVideo">
+    <source src="mark.mp4" type="video/mp4">
+  </video>
+  <center>
+  <div class="mainform">
+    <form action="/home" onsubmit="return validateForm()" id="form">
+      <h2>Create Account</h2>  
+      <div class="form-group">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        <div id="first_name_error">اكتب الاسم الاول </div>
+      </div>
+      <div class="form-group">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+        <div id="firstNameError">اكتب الاسم الاخير </div>
+
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <div id="email_error">اكتب الايميل بطريقة صحيحة </div>
+
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" required>
+
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+       </div>
+      <hr >
+    <button type="submit" onclick="validateForm()">Create Account</button>
+    </center>
+    </form>
+  </div>
+
+</body>
+</html> -->

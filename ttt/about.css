@@ -1,0 +1,157 @@
+*
+{
+    margin : 0;
+    padding : 0;
+    font-family: system-ui;
+}
+body
+{
+    display: flex;
+    justify-content: space-between;
+}
+html {
+    background-image: url('bgg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    
+  }
+a
+{
+ text-decoration: none;
+ color: snow;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    
+}
+.logo
+{
+    margin: 10px;
+    font-size: 38px;
+    position: fixed; 
+    top: 10px; 
+    left: 25px; 
+    z-index: 1000;
+}
+ul
+{
+    display: flex;
+    justify-content:center;
+    text-align:right;
+    list-style: none;
+    position: fixed; 
+    top: 25px; 
+    right: -400px;
+    width: 100%; 
+    color: white; 
+    padding: 10px 0; 
+    z-index: 900;   
+}
+ul li
+{
+    margin-right: 30px;
+}
+header ul li a 
+{
+ padding: 6px 12px;
+ border-radius: 20px;   
+}
+.Active4
+{
+    background: #fff;
+color:#200016 ;
+border-radius: 20px;
+}
+header ul li a:hover 
+{
+    background: #ffffff59;
+color:#200016 ;
+border-radius: 20px;
+transition-duration: 0.9s;
+transition-delay: .2s;
+}
+.Active4:hover
+{
+    background: #ffffff59;
+    color:#200016 ;
+    border-radius: 20px;
+    transition-duration: 0.1s;
+    transition-delay: 10s;
+} 
+/*about...................................................................................................*/
+
+.about {
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .about-img {
+    height: 500px;
+    width: 400px;
+    margin-right: 50px;
+} */
+
+.about-text {
+    width: auto;
+    position: relative;
+    margin: 50px;
+    right: 70px;
+}
+
+.main {
+    width: 300px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1 {
+    color: rgb(255, 255, 255);
+    font-size:40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.about-text h5 {
+    color: white;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.about-text .about-content {
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.read-more {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    font-size: large;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.read-more:hover {
+    background:#ffffff80 ;
+    cursor: pointer;
+}

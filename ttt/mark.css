@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui;
+}
+/* html {
+  background-image: url('bgg.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: scroll;
+} خلفيه */
+.logo/*اللوجو*/
+{
+    margin: 10px;
+    font-size: 38px;
+    position: fixed; 
+    top: 10px; 
+    left: 25px; 
+    z-index: 1000;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.mainform {
+  max-width: 500px;
+  margin: 50px ;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff18;
+  text-align: start;
+  border-radius: 16px; 
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.4px);
+  border: 3px solid rgba(255, 255, 255, 0.61);
+
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+select {
+  width: 90%;
+  padding: 15px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+button {
+  width: 100%;
+  background-color: #ffffff;
+  
+  padding: 2px;
+  border: none;
+  border-radius: 20px;
+
+}
+p /* كلمه كرييت اكونت اللي فالزرار*/
+{
+  color: #000000;
+position: relative;
+bottom: -4px;/*لتحريك الكلمه*/
+text-align: center;
+text-decoration:solid;/*=======لازاله الخط اللي كان تحتها======*/
+}
+button:hover {
+  background-color: #ffffff7d;
+border-radius: 20px;
+cursor: pointer;
+}
+
+hr{
+  color: #ffdc6b;
+  width:200px ;
+}
+.login-link a
+    {
+        color: #f8f8f8;
+    }
+    .login-link a:hover
+{
+color: #ffffff5e;
+}
+.login-link p  /*الكلمه اللي تحت*/
+{
+color: #ffffff;
+}
